@@ -1,0 +1,1 @@
+powershell.exe -windowstyle hidden C:\Users\<user>\Documents\git\streaming\set-speakers-as-default.ps1
