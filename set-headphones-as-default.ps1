@@ -1,0 +1,1 @@
+Set-AudioDevice -ID '{0.0.0.00000000}.{4d1f562c-cc7b-4f2e-a7c2-1becb3c24e5c}'
