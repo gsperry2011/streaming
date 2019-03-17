@@ -1,3 +1,6 @@
+; Usage:
+; "C:\Program Files\AutoHotkey\AutoHotKey.exe" "C:\path\to\script\get_window_position.ahk" "<Window title>"
+
 WindowTitle = %1%
 
 IfWinExist, %WindowTitle%
