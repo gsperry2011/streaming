@@ -1,9 +1,11 @@
 ; Usage:
 ; "C:\Program Files\AutoHotkey\AutoHotKey.exe" "C:\path\to\script\get_window_position.ahk" "<Window title>"
 
+settitlematchmode regex
+
 WindowTitle = %1%
 
-IfWinExist, %WindowTitle%
+IfWinExist, i)%WindowTitle%.*
 {
     WinGetPos, Xpos, Ypos, Width, Height
     WinGetText, Text
