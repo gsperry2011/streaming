@@ -1,1 +1,5 @@
+# Call POSH scripts silently
 powershell.exe -windowstyle hidden C:\Users\<user>\Documents\git\streaming\set-speakers-as-default.ps1
+
+# Calling AHK scripts via batch
+cmd.exe /c ""C:\Program Files\AutoHotkey\AutoHotKey.exe" "C:\Users\<user>\Documents\git\streaming\autohotkey\move_and_resize_chrome.ahk" "Twitch - Google Chrome" "1913" "0" "568" "1046" "https://www.twitch.tv/popout/abraxxustv/chat?popout=""

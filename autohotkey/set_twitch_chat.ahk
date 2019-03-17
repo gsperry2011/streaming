@@ -17,7 +17,3 @@ else
     ; Move & Resize
     WinMove, %WindowTitle%,, 1913, 0, 568, 1046
 }
-
-
-
-
