@@ -8,7 +8,7 @@ IfWinExist, Twitch - Google Chrome
 else
 {
     run chrome.exe --new-window %ChatURL%
-    sleep 10
+    sleep 1000
     WinMove, Twitch - Google Chrome,, 1913, 0, 569, 1046
 }
 

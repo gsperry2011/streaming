@@ -1,0 +1,9 @@
+IfWinExist, Twitch
+{
+    WinGetPos, Xpos, Ypos  ; Uses the window found above.
+    MsgBox, Notepad is at %Xpos%`,%Ypos%
+}
+
+
+
+
